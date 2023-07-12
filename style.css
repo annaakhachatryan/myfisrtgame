@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(8, 165, 249, 0.207);
+}
+#canvas{
+    position: absolute;
+    border: 3px solid #fff;
+    box-shadow: 8px 8px 20px 15px rgba(0, 0, 0, 0.54);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#playerImg,
+#bgImage,
+#animateImage{
+    display: none;
+    margin: 10px;
+}
+img{
+    object-fit: cover;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(2, 123, 183);
+    color: #000;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#restartButton {
+    display: block;
+    visibility: visible;
+  }
+  
+button:hover{
+    text-decoration: underline;
+    background-color: rgb(172, 220, 244);
+}
+
+#fillScreenButton{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
